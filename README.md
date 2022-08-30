@@ -5,6 +5,14 @@
 # Pub.dev
 [https://pub.dev/packages/babylonjs_viewer](https://pub.dev/packages/babylonjs_viewer)
 
+# Problem
+与webview_flutter3.0.4冲突  
+```
+Because babylonjs_viewer 1.1.4 depends on webview_flutter ^2.0.4 and no versions of babylonjs_viewer match >1.1.4 <2.0.0, babylonjs_viewer ^1.1.4 requires webview_flutter ^2.0.4.
+So, because rar depends on both babylonjs_viewer ^1.1.4 and webview_flutter ^3.0.4, version solving failed.
+
+```
+
 # Install
 This will add a line like this to your package's pubspec.yaml (and run an implicit dart pub get):
 ```
